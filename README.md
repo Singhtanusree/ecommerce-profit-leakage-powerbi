@@ -1,37 +1,38 @@
 # E-commerce Profit Leakage Analysis (Power BI)
 > The Power BI file (.pbix) is available on request. The dashboard is shown in the screenshots below and in `docs/Profit-Leakage-Dashboard.pdf`.
+# E-commerce Revenue Leakage Analysis (Power BI)
 
 ## Business problem
-Where does an online marketplace lose revenue, and how much can it recover?
-Analysed 100k orders to find three leaks: late deliveries, freight cost, weak sellers.
+(your paragraph)
 
-## Data
-Olist Brazilian E-Commerce Public Dataset (Kaggle), 9 tables, 2016–2018.
-Download: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-Currency: Brazilian Reais (R$).
+## Key findings
+(3 findings from the earlier message)
 
-## Tools
-Power BI, Power Query, DAX, star schema modelling
+## Dashboard preview
+![Executive summary](docs/exec-summary.png)
+![Delivery leak](docs/delivery-leak.png)
+![Freight leak](docs/freight-leak.png)
+![Seller leak](docs/seller-leak.png)
+![Recommendations](docs/recommendations.png)
 
 ## Data model
 ![Model](docs/data-model.png)
 
-## Key findings
-1. _Late deliveries: ... (fill after analysis)_
-2. _Freight: ..._
-3. _Sellers: ..._
+## Technical highlights
+- Power Query: type fixes, merges, one-row-per-order reviews and payments
+- Star schema: order_items fact + orders, customers, products, sellers, date dimension
+- 30+ DAX measures, calculated columns (delay bucket, seller tier), what-if parameter
 
 ## Recommendations
-| Action | Expected impact (R$) |
-|---|---|
-| ... | ... |
+(table)
 
-## Dashboard preview
-![Executive summary](docs/exec-summary.png)
+## Assumptions and limitations
+(bullets)
 
-## How to use
-Download the dataset, open `powerbi/profit-leakage.pbix`, refresh data paths.
+## Data
+Olist Brazilian E-Commerce Public Dataset (Kaggle), currency R$.
 
 ## Author
-Tanushree Singh | LinkedIn | singhtanushree.10@gmail.com
+Tanushree Singh | LinkedIn | email
+
 > The Power BI file (.pbix) is available on request. The dashboard is shown in the screenshots below and in `docs/Profit-Leakage-Dashboard.pdf`.
