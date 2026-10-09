@@ -1,4 +1,5 @@
 # E-commerce Profit Leakage Analysis (Power BI)
+> The Power BI file (.pbix) is available on request. The dashboard is shown in the screenshots below and in `docs/Profit-Leakage-Dashboard.pdf`.
 
 ## Business problem
 Where does an online marketplace lose revenue, and how much can it recover?
