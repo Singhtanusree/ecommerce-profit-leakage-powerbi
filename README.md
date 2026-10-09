@@ -11,14 +11,14 @@ Analysed 100k orders to find three leaks: late deliveries, freight cost, weak se
 3. **Seller risk is concentrated.** 57 weak sellers account for R$751K (5.5% of revenue), and 23% of revenue comes from sellers with fewer than 30 orders.
 
 ## Dashboard preview
-![Executive summary](docs/exec-summary.png)
-![Delivery leak](docs/delivery-leak.png)
-![Freight leak](docs/freight-leak.png)
-![Seller leak](docs/seller-leak.png)
-![Recommendations](docs/recommendations.png)
+![Executive summary](https://github.com/Singhtanusree/ecommerce-profit-leakage-powerbi/blob/main/docs/exec-summary.png.png)
+![Delivery leak](https://github.com/Singhtanusree/ecommerce-profit-leakage-powerbi/blob/main/docs/delivery-leak.png.png)
+![Freight leak](https://github.com/Singhtanusree/ecommerce-profit-leakage-powerbi/blob/main/docs/freight-leak.png.png)
+![Seller leak](https://github.com/Singhtanusree/ecommerce-profit-leakage-powerbi/blob/main/docs/seller-leak.png.png)
+![Recommendations](https://github.com/Singhtanusree/ecommerce-profit-leakage-powerbi/blob/main/docs/recommendations.png.png)
 
 ## Data model
-![Model](docs/data-model.png)
+![Model](https://github.com/Singhtanusree/ecommerce-profit-leakage-powerbi/blob/main/docs/data-model.png.png)
 
 ## Technical highlights
 - Power Query: type fixes, merges, one-row-per-order reviews and payments
