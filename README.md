@@ -33,3 +33,4 @@ Download the dataset, open `powerbi/profit-leakage.pbix`, refresh data paths.
 
 ## Author
 Tanushree Singh | LinkedIn | singhtanushree.10@gmail.com
+> The Power BI file (.pbix) is available on request. The dashboard is shown in the screenshots below and in `docs/Profit-Leakage-Dashboard.pdf`.
