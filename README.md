@@ -18,7 +18,7 @@ Analysed 100k orders to find three leaks: late deliveries, freight cost, weak se
 ![Recommendations](docs/recommendations.png)
 
 ## Data model
-![Model](https://github.com/Singhtanusree/ecommerce-profit-leakage-powerbi/blob/main/docs/data-model.png.png)
+![Model](docs/data-model.png)
 
 ## Technical highlights
 - Power Query: type fixes, merges, one-row-per-order reviews and payments
